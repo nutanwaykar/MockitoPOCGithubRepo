@@ -8,13 +8,11 @@ public class Person {
 	public Person() {
 		super();
 	}
-	
 	public Person(String firstName, int yob) {
 		super();
 		this.firstName = firstName;
 		this.yob = yob;
 	}
-
 	public String getFirstName() {
 		return firstName;
 	}
