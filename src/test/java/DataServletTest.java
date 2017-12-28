@@ -39,6 +39,8 @@ public class DataServletTest {
 		//when
 		sut.doGet(stubHttpServletRequest,stubHttpServletResponse);
 		
+		
+		
 		//then
 		String result = sw.getBuffer().toString().trim();
 	//	System.out.println("result is "+result);
