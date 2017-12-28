@@ -33,8 +33,6 @@ public class FormServlet extends HttpServlet {
 				"</body></html>");
 		out.close();
 	}
-
-	
 	
 }
 
