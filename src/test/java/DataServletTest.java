@@ -14,7 +14,6 @@ import static org.junit.Assert.*;
 import control.DataServlet;
 import control.GreetingServlet;
 
-
 @RunWith(MockitoJUnitRunner.class)
 public class DataServletTest {
 	@Mock
